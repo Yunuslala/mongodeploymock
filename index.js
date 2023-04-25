@@ -20,7 +20,7 @@ app.use(bookingRouter)
 app.listen(process.env.port,async()=>{
     try {
         await connection
-        console.log("db is connected");
+        console.log("mongo db is connected");
     } catch (error) {
         console.log("db is not connected");
     }
